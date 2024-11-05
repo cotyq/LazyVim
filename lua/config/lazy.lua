@@ -44,3 +44,16 @@ require("lazy").setup({
     },
   },
 })
+
+local lspconfig = require("lspconfig")
+
+-- setup helm-ls
+lspconfig.helm_ls.setup({
+  settings = {
+    ["helm-ls"] = {
+      yamlls = {
+        path = "yaml-language-server",
+      },
+    },
+  },
+})

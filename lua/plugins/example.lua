@@ -181,6 +181,10 @@ return {
         "typescript",
         "vim",
         "yaml",
+        "helm",
+      },
+      highlight = {
+        enable = true,
       },
     },
   },

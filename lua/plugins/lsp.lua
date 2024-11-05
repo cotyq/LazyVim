@@ -1,0 +1,28 @@
+return {
+  -- {
+  --   "neovim/nvim-lspconfig",
+  --   opts = {
+  --     servers = {
+  --       pylsp = {
+  --         settings = {
+  --           pylsp = {
+  --             plugins = {
+  --               ruff = {
+  --                 enabled = true,
+  --                 extendSelect = { "I" },
+  --                 lineLength = 120,
+  --               },
+  --               flake8 = { enabled = false },
+  --               mccabe = { enabled = false },
+  --               pycodestyle = { enabled = false },
+  --               pyflakes = { enabled = false },
+  --               yapf = { enabled = false },
+  --               autopep8 = { enabled = false },
+  --             },
+  --           },
+  --         },
+  --       },
+  --     },
+  --   },
+  -- },
+}
