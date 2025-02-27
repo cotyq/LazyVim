@@ -8,7 +8,7 @@ return {
   --           pylsp = {
   --             plugins = {
   --               ruff = {
-  --                 enabled = true,
+  --                 enabled = false,
   --                 extendSelect = { "I" },
   --                 lineLength = 120,
   --               },
